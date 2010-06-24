@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Clojure" name="Clojure">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/clojure" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/clojure" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Maven: org.clojure:clojure:1.2.0-master-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.clojure:clojure-contrib:1.2.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="Maven: log4j:log4j:1.2.14" level="project" />
+    <orderEntry type="library" exported="" name="Maven: jline:jline:0.9.94" level="project" />
+    <orderEntry type="library" exported="" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" exported="" name="Maven: circumspec:circumspec:0.0.10" level="project" />
+    <orderEntry type="library" exported="" name="Maven: swank-clojure:swank-clojure:1.1.0-SNAPSHOT" level="project" />
+  </component>
+</module>
+

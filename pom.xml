@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>capclug.demos</groupId>
+    <artifactId>callcljdemo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>call-clj</module>
+        <module>clj-from-java</module>
+    </modules>
+    <name>Capclug Calling Clojure from Java demo</name>
+    <description>Capclug Calling Clojure from Java demo</description>
+    <packaging>pom</packaging>
+</project>
