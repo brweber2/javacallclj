@@ -1,0 +1,5 @@
+clj-from-java/target/*
+call-clj/target/*
+*.iws
+*.iml
+*.ipr
