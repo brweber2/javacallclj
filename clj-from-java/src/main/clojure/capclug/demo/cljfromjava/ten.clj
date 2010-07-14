@@ -4,8 +4,6 @@
               [bar [String] void]
               [baz [String] void]]))
 
-;(set! *warn-on-reflection* true)
-
 (defn -foo [this #^Integer baz]
   (println "will I work? " baz))
 

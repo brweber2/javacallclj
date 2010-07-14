@@ -13,15 +13,3 @@
 
 (defn -hiya [this #^String name]
   (heya name))
-
-
-; files with - in the name
-; defrecord
-; deftype
-; defprotocol
-; another project with dependency on this that calls this code from java
-; using primitives
-; using arrays
-; type hints
-; IDE java refactoring (does it detect clojure usages?)
-; what else?
