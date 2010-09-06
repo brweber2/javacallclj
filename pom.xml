@@ -2,14 +2,14 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>capclug.demos</groupId>
-    <artifactId>callcljdemo</artifactId>
+    <artifactId>clojure-java-interop</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>java-call-clj</module>
         <module>compile-clj-to-java</module>
+        <module>java-call-clj</module>
         <module>clj-call-java</module>
     </modules>
-    <name>Capclug Calling Clojure from Java demo</name>
-    <description>Capclug Calling Clojure from Java demo</description>
+    <name>Clojure/Java interop demo</name>
+    <description>Clojure/Java interop demo</description>
     <packaging>pom</packaging>
 </project>
