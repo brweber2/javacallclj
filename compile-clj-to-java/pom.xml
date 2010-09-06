@@ -2,7 +2,7 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>capclug.demos</groupId>
-    <artifactId>cljfromjava</artifactId>
+    <artifactId>compile-clj-to-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Clojure code to be called by Java</name>
     <description>Clojure code to be called by Java</description>
@@ -60,12 +60,12 @@
         <dependency>
             <groupId>org.clojure</groupId>
             <artifactId>clojure</artifactId>
-            <version>1.2.0-beta1</version>
+            <version>1.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.clojure</groupId>
             <artifactId>clojure-contrib</artifactId>
-            <version>1.2.0-beta1</version>
+            <version>1.2.0</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
@@ -76,44 +76,6 @@
             <groupId>jline</groupId>
             <artifactId>jline</artifactId>
             <version>0.9.94</version>
-        </dependency>
-        <dependency>
-            <groupId>circumspec</groupId>
-            <artifactId>circumspec</artifactId>
-            <version>0.0.13</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.clojure</groupId>
-                    <artifactId>clojure</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.clojure</groupId>
-                    <artifactId>clojure-contrib</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>jline</groupId>
-                    <artifactId>jline</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>swank-clojure</groupId>
-            <artifactId>swank-clojure</artifactId>
-            <version>1.1.0</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.clojure</groupId>
-                    <artifactId>clojure</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.clojure</groupId>
-                    <artifactId>clojure-contrib</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>jline</groupId>
-                    <artifactId>jline</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
 </project>

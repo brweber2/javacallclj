@@ -5,7 +5,7 @@
     
   <modelVersion>4.0.0</modelVersion>
   <groupId>capclug.demos</groupId>
-  <artifactId>callclj</artifactId>
+  <artifactId>java-call-clj</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Java code that calls compiled Clojure</name>
   <description>Java code that calls compiled Clojure</description>
@@ -13,7 +13,7 @@
   <dependencies>
     <dependency>
       <groupId>capclug.demos</groupId>
-      <artifactId>cljfromjava</artifactId>
+      <artifactId>compile-clj-to-java</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>

@@ -5,8 +5,9 @@
     <artifactId>callcljdemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>call-clj</module>
-        <module>clj-from-java</module>
+        <module>java-call-clj</module>
+        <module>compile-clj-to-java</module>
+        <module>clj-call-java</module>
     </modules>
     <name>Capclug Calling Clojure from Java demo</name>
     <description>Capclug Calling Clojure from Java demo</description>
